@@ -264,7 +264,7 @@
     <div class="containerClass">
       <div class="w-full mt-8 rounded-lg md:mt-12 text-center">
         <!-- bookoneheader -->
-        <LazyHomeGoogleAdsWithIns hydrate-on-idle />
+       
       </div>
       <div
         data-aos="fade-left"

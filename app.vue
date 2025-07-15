@@ -18,7 +18,7 @@
       </template>
     </LazyUNotifications>
 
-    <LazyHomeSuuportAds :hydrate-when="isReady" />
+    <!-- <LazyHomeSuuportAds :hydrate-when="isReady" /> -->
   </main>
 </template>
 

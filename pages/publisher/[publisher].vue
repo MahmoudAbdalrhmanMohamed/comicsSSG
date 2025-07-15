@@ -68,7 +68,7 @@
 
     <div class="containerClass">
       <div class="w-full mt-8 rounded-lg md:mt-12 mx-auto text-center">
-        <LazyHomeGoogleAdsWithIns hydrate-on-idle />
+       
       </div>
     </div>
     <!-- Skeleton Loader for Comics -->

@@ -38,7 +38,7 @@
         <div
           class="w-full mt-8 relative z-10 rounded-lg mx-auto md:mt-12 text-center"
         >
-          <LazyHomeGoogleAdsWithIns hydrate-on-idle />
+         
         </div>
       </div>
       <h1

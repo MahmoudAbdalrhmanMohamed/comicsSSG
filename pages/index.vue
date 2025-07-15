@@ -5,7 +5,6 @@
     <LazyHomeFollowerList v-if="false" hydrate-on-visible />
     <LazyHomeMostReading hydrate-on-visible />
     <LazyHomeLatestCompont hydrate-on-visible />
-
   </section>
 </template>
 
