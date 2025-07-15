@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header .router-link-active {
+  @apply text-f0d relative;
+}
+header .router-link-active::after {
+  @apply bg-f0d absolute transition-all duration-300 content-[''] w-[10px] h-[3px] rounded-[10px] -bottom-[2px] left-1/2 -translate-x-1/2;
+}
+.linkClass {
+  @apply relative  transition-all duration-300;
+}
+.linkClass:hover {
+  @apply text-f0d relative transition-all duration-300;
+}
+.linkClass::after {
+  @apply transition-all duration-300;
+}
+.linkClass:hover::after {
+  @apply bg-f0d absolute content-[''] w-[10px] h-[3px] rounded-[10px] -bottom-[2px] left-1/2 -translate-x-1/2;
+}
+.containerClass {
+  @apply px-4 md:px-12;
+}
+
+.accountClass .router-link-active {
+  @apply text-color14 bg-fc px-6;
+}
+.accountClassSmall .router-link-active {
+  @apply text-color14 bg-gray-300 rounded-lg;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  *::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #6e6e6e;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 1rem;
+    transition: 1s;
+  }
+
+  .smallScrollBar::-webkit-scrollbar {
+    width: 4px;
+    height: 0.5rem;
+  }
+
+  .smallScrollBar::-webkit-scrollbar-track {
+    background: #6e6e6e;
+  }
+
+  .smallScrollBar::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 0.5rem;
+    transition: 1s;
+  }
+}
+
+/* firfox */
+@-moz-document url-prefix() {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.05) transparent;
+  }
+  .smallScrollBar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.05) transparent;
+  }
+}
+
+.number-none::-webkit-outer-spin-button,
+.number-none::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.number-none[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.no.router-link-active::after {
+  @apply w-0 h-0;
+}
+
+.copyright h1 {
+  @apply font-bold text-4xl md:text-6xl text-d36 capitalize;
+}
+.copyright h2 {
+  @apply font-semibold text-2xl md:text-4xl text-d36 capitalize;
+}
+.copyright h3 {
+  @apply font-semibold text-xl md:text-3xl text-d36 capitalize;
+}
+.copyright p {
+  @apply my-4 text-lg capitalize;
+}
+.copyright ul {
+  @apply px-8 list-disc space-y-4 capitalize;
+}
+.copyrightV2 h1 {
+  @apply font-bold text-4xl md:text-6xl text-d36 capitalize;
+}
+.copyrightV2 h2 {
+  @apply font-semibold text-2xl md:text-4xl text-d36 capitalize;
+}
+.copyrightV2 h3 {
+  @apply font-semibold text-xl md:text-3xl text-d36 capitalize;
+}
+.copyrightV2 p {
+  @apply my-4 text-lg capitalize;
+}
+.copyrightV2 ul {
+  @apply px-8 list-decimal space-y-4 capitalize;
+}

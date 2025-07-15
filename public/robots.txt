@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /chapter/
+Disallow: /*page=
+Disallow: /cdn-cgi/
+
+Sitemap: https://www.ysk-comics.com/sitemap_index.xml

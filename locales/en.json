@@ -1,0 +1,42 @@
+{
+  "common": {
+    "home": "Home",
+    "siteName": "Your Site Name"
+  },
+  "blogs": {
+    "title": "Our Blog",
+    "seo": {
+      "title": "Blog Posts | Your Site Name",
+      "description": "Explore our latest blog posts, articles, and insights on various topics. Stay updated with our expert content and industry news."
+    },
+    "error": {
+      "title": "Oops! Something went wrong",
+      "retry": "Try Again"
+    },
+    "empty": {
+      "title": "No Blogs Found",
+      "message": "Check back later for new content!"
+    }
+  },
+  "blog": {
+    "seo": {
+      "defaultDescription": "Read this article on our blog."
+    },
+    "error": {
+      "title": "Oops! Something went wrong",
+      "retry": "Try Again"
+    },
+    "notFound": {
+      "title": "Blog Post Not Found",
+      "message": "The blog post you're looking for doesn't exist or has been removed.",
+      "backToBlogs": "Back to Blogs"
+    },
+    "tags": {
+      "title": "Tags"
+    }
+  },
+  "pagination": {
+    "previous": "Previous page",
+    "next": "Next page"
+  }
+}
