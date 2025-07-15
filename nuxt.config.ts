@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxtjs/i18n",
-    "@nuxtjs/html-validator",
+    // "@nuxtjs/html-validator",
     "@nuxt/fonts",
     "@nuxt/image",
     "@vueuse/nuxt",
@@ -127,9 +127,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  htmlValidator: {
-    usePrettier: true,
-  },
+  // htmlValidator: {
+  //   usePrettier: true,
+  // },
   i18n: {
     experimental: {
       switchLocalePathLinkSSR: true,
